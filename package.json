@@ -4,7 +4,9 @@
   "description": "Projeto para aprender e treinar. Dia 1 = configuração da versão do node.js que estou utilizando.",
   "main": "index.js",
   "scripts": {
-    "dev": "next dev"
+    "dev": "next dev",
+    "lint:fix": "prettier --write .",
+    "lint:check": "prettier --check ."
   },
   "author": "",
   "license": "ISC",
@@ -12,5 +14,8 @@
     "next": "^13.1.6",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "prettier": "^3.6.2"
   }
 }
