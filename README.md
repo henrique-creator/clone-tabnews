@@ -1,3 +1,3 @@
 # clone-tabnews
 
-Projeto para aprender e treinar.
+Implementação do site https://www.tabnews.com.br/ em meu portifólio.
